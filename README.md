@@ -20,6 +20,8 @@ spec:
       storage: 200Mi
 ```
 ## Apply SQL, load balancer & cluster ip service
+
+mssql-depl.yaml
 ```
 apiVersion: apps/v1
 kind: Deployment
