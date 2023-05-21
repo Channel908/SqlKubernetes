@@ -19,7 +19,7 @@ spec:
     requests:
       storage: 200Mi
 ```
-## Apply SQL, load balancer & cluster ip service
+## Apply SQL image, load balancer & cluster ip service
 
 mssql-depl.yaml
 ```
