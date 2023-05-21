@@ -19,6 +19,10 @@ spec:
     requests:
       storage: 200Mi
 ```
+```
+kubectl apply -f mssql-persist.yaml
+```
+
 ## Apply SQL image, load balancer & cluster ip service
 
 mssql-depl.yaml
@@ -87,7 +91,9 @@ spec:
     port: 1433
     targetPort: 1433
 ```
-
+```
+kubectl apply -f mssql-depl.yaml
+```
 ## Connect
 you should now be able to connect 
 Server Name: localhost or computername or host name
