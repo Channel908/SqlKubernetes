@@ -87,3 +87,10 @@ spec:
     port: 1433
     targetPort: 1433
 ```
+
+## Connect
+you should now be able to connect 
+Server Name: localhost or computername or host name
+Authentication: SQL Server Authentication
+Login: sa
+Pasword: Abc123!1 (secret key SA_PASSWORD value)
