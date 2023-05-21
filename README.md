@@ -1,4 +1,4 @@
-# Sql Kubernetes Installtion
+# Sql Kubernetes Installation
 
 ## SQL sa password secret
 ```
