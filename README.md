@@ -1,3 +1,6 @@
 # Sql Kubernetes Installtion
 
-## Sql sa password secret
+## SQL sa password secret
+```
+kubectl create secret generic mssql --from-literal=SA_PASSWORD=Abc123!!
+```
